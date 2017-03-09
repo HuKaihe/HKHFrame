@@ -18,7 +18,6 @@ define(['jquery', 'layer', 'handlebars'], function ($, layer) {
             }
         });
     });
-
     return {
         myConfig: myConfig
     }

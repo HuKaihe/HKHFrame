@@ -4,7 +4,8 @@ HKHFrame旨在以简洁大方的界面帮助各类用户迅速搭建起属于自
 
 打开方式，直接打款views/frame/index.html即可。
 
-![](http://i.imgur.com/2bk8KqI.jpg)
+![主界面](http://i.imgur.com/Ss2UJDa.jpg)
+
 
 ##功能介绍
 
@@ -14,13 +15,13 @@ HKHFrame旨在以简洁大方的界面帮助各类用户迅速搭建起属于自
 
 点击左侧导航栏的收缩按钮可以将导航栏转换为轻便的导航小工具。
 
-![](http://i.imgur.com/BVsaN7A.jpg)
+![](http://i.imgur.com/ITgaA3A.jpg)
 
 ###标签卡管理
 
 用户每打开一个子页面都将会生成对应的标签卡，以方便用户对访问过的页面进行回访。当标签卡达到一定的数量后，会自动关闭前面的位于标签栏较前标签卡。用户可以拖动标签卡，调整标签卡的位置。
 
-![](http://i.imgur.com/ujJrArE.jpg)
+![](http://i.imgur.com/32MNesx.jpg)
 
 ###页面刷新
 

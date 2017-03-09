@@ -195,7 +195,6 @@ define(["jquery", "handlebars", "system-config"], function ($, Handlebars, syste
                     // 如果系统设置为自动刷新，每次进入已创建的frame时，自动刷新页面
                     if (systemConfig.myConfig.frameRefresh == 1) {
                         refreshTheFrame(tab.tab_id);
-                        //parent.frames["frame" + tab.tab_id].location.reload();
                     }
                 } else {
                     var tabMaker = Handlebars.compile(parent.document.getElementById("tabTemplate").text);
@@ -217,7 +216,6 @@ define(["jquery", "handlebars", "system-config"], function ($, Handlebars, syste
 
     function dragTab() {
         var $tab = $(event.target);
-        $tab.addClass("tab-dragging");
         event.dataTransfer.setData("tab_id", $tab.data("tab_id"));
     }
 
@@ -226,7 +224,7 @@ define(["jquery", "handlebars", "system-config"], function ($, Handlebars, syste
             $tab = $(".tab-created[data-tab_id=" + tab_id + "]"),
             locationInfo = getTabLocation($tab);
 
-        $tab.removeClass("tab-dragging");
+        // $tab.removeClass("tab-dragging");
 
         if (locationInfo.afterOrBefore == 0) {
             $tab.insertBefore(locationInfo.$nearestTab);

@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/public/javascripts/tab-operation.min.js" />
+        <item url="file://$PROJECT_DIR$/public/javascripts/navigationMaker.min.js" />
+        <item url="file://$PROJECT_DIR$/public/javascripts/system-config.min.js" />
+        <item url="file://$PROJECT_DIR$/public/javascripts/require-config.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/public/javascripts/tab-operation.min.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/navigationMaker.min.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/system-config.min.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/require-config.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -3,7 +3,6 @@
  * 操作导航栏的js文件
  */
 define(['jquery', 'handlebars', 'tab-operation', 'system-config'], function ($, Handlebars, tabOperation, systemConfig) {
-
     var data = [
         {
             "id": 1,
