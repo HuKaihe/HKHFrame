@@ -3,6 +3,7 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/public/javascripts/tab-operation.min.js" />
+        <item url="file://$PROJECT_DIR$/public/library/animate/wow.min.min.js" />
         <item url="file://$PROJECT_DIR$/public/javascripts/navigationMaker.min.js" />
         <item url="file://$PROJECT_DIR$/public/javascripts/system-config.min.js" />
         <item url="file://$PROJECT_DIR$/public/javascripts/require-config.min.js" />
@@ -10,6 +11,7 @@
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/public/javascripts/tab-operation.min.js" />
+      <root url="file://$PROJECT_DIR$/public/library/animate/wow.min.min.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/navigationMaker.min.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/system-config.min.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/require-config.min.js" />

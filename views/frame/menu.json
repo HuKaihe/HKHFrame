@@ -9,7 +9,7 @@
     "url": "",
     "childInfo": [
       {
-        "id": 1.1,
+        "id": Math.random().toString(),
         "_parentId": 1,
         "menus_status": 1,
         "text": "经典JS",

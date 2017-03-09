@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" id="myHtml">
 <head>
-    <title>HKHFrame</title>
+    <title>HKHBlog</title>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="../../public/images/icon.png"/>
     <link rel="stylesheet" href="../../public/stylesheets/reset.min.css">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../public/library/layer/skin/layer.css">
     <link rel="stylesheet" href="../../public/stylesheets/index.min.css">
     <link rel="stylesheet" href="../../public/library/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/library/animate/animate.css">
     <script src="../../public/library/jquery/jquery-1.12.0.min.js"></script>
 </head>
 <body id="myBody">
@@ -21,17 +22,17 @@
 
     <!--下面这些板块右浮于屏幕右边-->
     <div class="btn-group">
-        <button class="button-event">
+        <button class="button-event animated bounceInLeft">
             <span class="fa fa-power-off"></span>
         </button>
-        <button class="button-settings" data-toggle="tooltip">
+        <button class="button-settings animated bounceInLeft" data-toggle="tooltip">
             <span class="fa fa-search"></span>
         </button>
-        <button class="button-settings" data-toggle="tooltip">
+        <button class="button-settings animated bounceInLeft" data-toggle="tooltip">
             <span class="fa fa-cog fa-spin"></span>
         </button>
     </div>
-    <div class="touch-me">
+    <div class="touch-me animated lightSpeedIn">
         <div>
             <span class="icon fa fa-github"></span>
             <a href="https://github.com/HuKaihe" target="_blank">https://github.com/HuKaihe</a>
@@ -46,13 +47,12 @@
 <!--框架左侧导航栏-->
 <div class="left-block-container">
     <div class="left-block">
-
         <div class="user-info">
-            <div class="user-icon"></div>
+            <div class="user-icon animated bounceInLeft"></div>
             <div class="user-detail">
-                <div class="user-name">胡凯赫</div>
-                <div class="user-position">web前端工程师</div>
-                <div class="user-pow">online</div>
+                <div class="user-name animated bounceInRight">胡凯赫</div>
+                <div class="user-position animated bounceInRight">web前端工程师</div>
+                <div class="user-pow animated bounceInRight">online</div>
             </div>
         </div>
         <ul class="navigation">
@@ -65,10 +65,10 @@
                 {{#each this}}
                 <li>
                     <a name="{{id}}" href="javascript:void(0)" data-url="{{url}}" data-funcname="{{func_name}}">
-                        <span class="navButton-icon fa fa-fw {{icon}}"></span>
-                        <span class="break-word-text navButton-text" title="{{text}}"> {{text}} </span>
+                        <span class="navButton-icon fa fa-fw {{icon}} animated bounceIn"></span>
+                        <span class="break-word-text navButton-text animated bounceIn" title="{{text}}" > {{text}} </span>
                         {{#if childInfo}}
-                        <span class="navButton-spread fa fa-fw fa-angle-down"></span>
+                        <span class="navButton-spread fa fa-fw fa-angle-down animated bounceIn"></span>
                         {{/if}}
                     </a>
                     {{#if childInfo}}
@@ -161,9 +161,9 @@
 </div>
 <!--选项卡区域-->
 <div class="tab-block">
-    <div data-tab_id="indexPage" class="tab-jump tab_index tab tab-active" data-url="/page/system-administration/function-module/index.html">首页</div>
+    <div data-tab_id="indexPage" class="tab-jump tab_index tab tab-active animated rollIn" data-url="/page/system-administration/function-module/index.html">首页</div>
     <script type="x-handlebars-template" id="tabTemplate">
-        <div class="tab-jump tab tab-created tab-active" data-url="{{tab_url}}" data-tab_id="{{tab_id}}" draggable="true">
+        <div class="tab-jump tab tab-created tab-active animated rollIn" data-url="{{tab_url}}" data-tab_id="{{tab_id}}" draggable="true">
             <span class="break-word-text tab-text">{{tab_text}}</span>
 
             <div class="tab-close-container">
@@ -172,10 +172,10 @@
         </div>
     </script>
 
-    <div class="tabButton-refresh tab tabButton">刷新</div>
+    <div class="tabButton-refresh tab tabButton animated rollIn">刷新</div>
 
     <div class="tab tabButton">
-        <div class="tabButton-tab-close">关闭标签&nbsp;&nbsp;<span class="fa fa-caret-down"></span></div>
+        <div class="tabButton-tab-close animated rollIn">关闭标签&nbsp;&nbsp;<span class="fa fa-caret-down"></span></div>
         <ul class="tab-close-menu">
             <li class="tabButton-close-others">关闭其他</li>
             <li class="tabButton-close-all">关闭所有</li>
