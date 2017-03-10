@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    /*background-color: #f7f2f2;*/
+    font-family: "Microsoft YaHei";
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 25px;
+    display: inline-block;
+    color: #3086C2;
+}
+
+.col-flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}
+
+.row-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.nav-item {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.top-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1080px;
+    height: 350px;
+    margin: 25px auto;
+}
+
+.top-block img:first-child {
+    width: 300px;
+}
+
+.top-block .banner {
+    width: 780px;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.main .menu .sidebar {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    width: 180px;
+    background-color: #22282C;
+}
+
+.main .menu .sidebar li {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    height: 75px;
+    line-height: 75px;
+    border-bottom: 1px solid #353A3E;
+    font-size: 12px;
+}
+
+.main .menu .sidebar li:last-child{
+    border-bottom: none;
+}
+
+.main .menu .sidebar li:hover {
+    background-color: #3086C2;
+}
+
+.main .menu .sidebar li.active {
+    background-color: #3086C2;
+}
+
+.main .menu .sidebar li a {
+    color: #D5E5F1;
+}
+
+.main .primary {
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    width: 900px;
+}
+
+.main .primary .intro {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.main .primary .intro li {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    line-height: 30px;
+    color: #7E7E7E;
+}
+
+.main .primary .intro li span {
+    display: block;
+    color: #3086C2;
+    text-align: center;
+}
+
+.main .primary .intro li:first-child span {
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: -1px;
+}
+
+.main .primary .intro li.bottom-line {
+    position: absolute;
+    top: 85px;
+    left: 225px;
+    height: 3px;
+    width: 100px;
+    padding: 0;
+    background-color: #3086C2;
+}
+
+.main .primary .blog-pic-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.main .primary .blog-pic-list li img {
+    width: 300px;
+    height: 185px;
+}
+
+.describe{
+    width: 100%;
+    height: 53px;
+    line-height: 50px;
+    color: #3086C2;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/*$滚动条$*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* 滚动条的滑轨背景颜色 */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* 滑块颜色 */
+::-webkit-scrollbar-thumb {
+    background-color: #6e7173;
+    border-radius: 10px;
+}
+
+/* 滑轨两头的监听按钮颜色 */
+::-webkit-scrollbar-button {
+    display: none;
+}

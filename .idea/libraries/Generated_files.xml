@@ -2,19 +2,22 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/public/javascripts/tab-operation.min.js" />
-        <item url="file://$PROJECT_DIR$/public/library/animate/wow.min.min.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/navigationMaker.min.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/system-config.min.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/require-config.min.js" />
+        <item url="file://$PROJECT_DIR$/classic/public/javascripts/tab-operation.min.js" />
+        <item url="file://$PROJECT_DIR$/classic/public/library/animate/wow.min.min.js" />
+        <item url="file://$PROJECT_DIR$/workWithVue/public/javascripts/navigationMaker.min.js" />
+        <item url="file://$PROJECT_DIR$/classic/public/javascripts/navigationMaker.min.js" />
+        <item url="file://$PROJECT_DIR$/classic/public/javascripts/system-config.min.js" />
+        <item url="file://$PROJECT_DIR$/classic/public/javascripts/require-config.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/public/javascripts/tab-operation.min.js" />
       <root url="file://$PROJECT_DIR$/public/library/animate/wow.min.min.js" />
-      <root url="file://$PROJECT_DIR$/public/javascripts/navigationMaker.min.js" />
-      <root url="file://$PROJECT_DIR$/public/javascripts/system-config.min.js" />
-      <root url="file://$PROJECT_DIR$/public/javascripts/require-config.min.js" />
+      <root url="file://$PROJECT_DIR$/classic/public/javascripts/tab-operation.min.js" />
+      <root url="file://$PROJECT_DIR$/classic/public/library/animate/wow.min.min.js" />
+      <root url="file://$PROJECT_DIR$/workWithVue/public/javascripts/navigationMaker.min.js" />
+      <root url="file://$PROJECT_DIR$/classic/public/javascripts/navigationMaker.min.js" />
+      <root url="file://$PROJECT_DIR$/classic/public/javascripts/system-config.min.js" />
+      <root url="file://$PROJECT_DIR$/classic/public/javascripts/require-config.min.js" />
     </CLASSES>
     <SOURCES />
   </library>
